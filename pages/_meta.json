@@ -1,15 +1,31 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "index": {
+    "title":"Home",
+    "theme":{
+      "layout":"full",
+      "sidebar":false,
+      "pagination":false
+    }
   },
+  
+  "html": "HTML",
+  "css": "CSS",
+  "javascript": "Javascript",
+  "Nodejs": "NodeJs Tutorial",
+  "python": "Python ",
+  "cybersecurity": "CyberSecurity",
+  "flutter": "Flutter",
+  "dataanalytics":"Data Analytics",
+  "Datascience":"Data",
+  
+
+
   "contact": {
-    "title": "Contact ↗",
+    "title": "Get Certified",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://techneo.ng/computer-training-school-in-abuja/",
     "newWindow": true
+    
   }
+  
 }

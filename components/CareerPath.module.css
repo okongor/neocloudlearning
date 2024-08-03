@@ -1,0 +1,24 @@
+/* components/CareerPath.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  
+  .step {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .step:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .dark .step {
+    background-color: #333;
+    color: #000000;
+  }

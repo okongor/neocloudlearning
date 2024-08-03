@@ -1,0 +1,44 @@
+/* components/ProgrammingLanguagesGrid.module.css */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    row-gap: 30px;
+    column-gap:30px;
+    margin-top: 5%;
+    
+ 
+  }
+  
+  .box {
+    background-color: rgb(5, 5, 94); 
+
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.1);
+   
+   
+  }
+  
+  .box:hover {
+    background-color: #ffffff;
+    padding: 50px;
+    color: rgb(5, 5, 94);
+    border: 3px solid rgb(5, 5, 94);
+  }
+  
+
+
+
+
+.grid.closed {
+	max-height: 0;
+}

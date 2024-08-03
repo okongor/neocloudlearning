@@ -1,11 +1,159 @@
-# Introduction
+import Hero from '../components/Hero';
+import cursorComponent from "../components/cursor";
+import ProgrammingLanguagesGrid from '../components/ProgrammingLanguagesGrid';
+import CareerPath from '../components/CareerPath';
+
+
+export const Wrapper = ({ children }) => {
+  return (
+    
+    <div style={ {maxWidth: '70rem', margin: '0 auto', padding: '0 1rem',}}>
+      { children }
+    </div>
+   
+  )
+};
+
+
+
+
+
+  
+
+export const Boxhtml = () => {
  
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
 
-## What is Nextra?
+ return (
+  <div style={{display:'flex',}}>
+    <div style={ { Width: '40rem',
+       paddingTop:50,
+        paddingBottom:50,
+         backgroundColor:'#7494cc', 
+         borderRadius:23,
+         textAlign:'center',}}>
+      <h1>HTML</h1>
+    </div>
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
 
-## Documentation
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+     <div style={ { Width: '20rem',
+       paddingTop:50,
+        paddingBottom:50,
+         backgroundColor:'#7494cc', 
+         borderRadius:23,
+         textAlign:'center',}}>
+      <h1>CSS</h1>
+
+    </div>
+
+
+     <div style={ { Width: '20rem',
+       paddingTop:50,
+        paddingBottom:50,
+         backgroundColor:'#7494cc', 
+         borderRadius:23,
+         textAlign:'center',}}>
+      <h1>JavaScript</h1>
+    </div>
+
+
+
+     <div style={ { Width: '20rem',
+       paddingTop:50,
+        paddingBottom:50,
+         backgroundColor:'#7494cc', 
+         borderRadius:23,
+         textAlign:'center',}}>
+      <h1>NodeJs</h1>
+    </div>
+
+
+
+     <div style={ { Width: '20rem',
+       paddingTop:50,
+        paddingBottom:50,
+         backgroundColor:'#7494cc', 
+         borderRadius:23,
+         textAlign:'center',}}>
+      <h1>Python</h1>
+    </div>
+
+
+
+
+ <div style={ { Width: '20rem',
+       paddingTop:50,
+        paddingBottom:50,
+         backgroundColor:'#7494cc', 
+         borderRadius:23,
+         textAlign:'center',}}>
+      <h1>Flutter</h1>
+    </div>
+
+
+ <div style={ { Width: '20rem',
+       paddingTop:50,
+        paddingBottom:50,
+         backgroundColor:'#7494cc', 
+         borderRadius:23,
+         textAlign:'center',}}>
+      <h1>Data Science</h1>
+    </div>
+
+
+
+     <div style={ { Width: '20rem',
+       paddingTop:50,
+        paddingBottom:50,
+         backgroundColor:'#7494cc', 
+         borderRadius:23,
+         textAlign:'center',}}>
+      <h1>Data Analytics</h1>
+    </div>
+
+     <div style={ { Width: '20rem',
+       paddingTop:50,
+        paddingBottom:50,
+         backgroundColor:'#7494cc', 
+         borderRadius:23,
+         textAlign:'center',}}>
+      <h1>CyberSecurity</h1>
+    </div>
+
+
+ </div>
+    
+  );
+
+
+
+};
+
+
+
+<Hero />
+
+
+<Wrapper>
+
+
+
+
+<br/>
+<br/>
+<br/>
+ 
+    
+# Master in-demand skills.
+
+NeoCloud Learning is your one-stop destination for mastering the latest technologies.   
+Our expert-crafted tutorials cover a wide range of topics, from programming languages to Cyber Security.Whether you're a beginner or an experienced developer, we've got you covered.
+
+<br/>
+<ProgrammingLanguagesGrid />
+<br/>
+<br/>
+## Web Development Roadmap
+<br/>
+<CareerPath />
+</Wrapper>
