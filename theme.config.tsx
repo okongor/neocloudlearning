@@ -1,6 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
-
+import { useTheme } from 'next-themes'
 const config: DocsThemeConfig = {
 
   useNextSeoProps() {
@@ -9,6 +9,7 @@ const config: DocsThemeConfig = {
     }
   },
   darkMode: false,
+
   logo: <span>
     <svg
       id="svg"
@@ -121,7 +122,7 @@ const config: DocsThemeConfig = {
   },
 
   nextThemes: {
-
+    defaultTheme: "light"
 
   }
 }
