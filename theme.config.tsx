@@ -104,7 +104,7 @@ const config: DocsThemeConfig = {
 
 
   sidebar: {
-    autoCollapse: true,
+
     toggleButton: true,
     defaultMenuCollapseLevel: 1
 
