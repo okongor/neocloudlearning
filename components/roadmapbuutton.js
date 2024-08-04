@@ -14,7 +14,7 @@ const MdxButton = ({ href, children }) => {
           padding: '20px',
           textAlign: 'center',
           textDecoration: 'none',
-          borderRadius: '5px',
+          borderRadius: '9px',
           fontSize:'25px'
         }}
       >
