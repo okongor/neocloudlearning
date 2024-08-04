@@ -5,10 +5,10 @@ const config: DocsThemeConfig = {
 
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – SWR'
+      titleTemplate: '%s – neocloud learning'
     }
   },
-
+  darkMode: false,
   logo: <span>
     <svg
       id="svg"
@@ -108,6 +108,7 @@ const config: DocsThemeConfig = {
     toggleButton: true,
     defaultMenuCollapseLevel: 1
 
+
   },
 
   gitTimestamp: false,
@@ -120,6 +121,7 @@ const config: DocsThemeConfig = {
   },
 
   nextThemes: {
+
 
   }
 }
