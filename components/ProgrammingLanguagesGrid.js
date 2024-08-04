@@ -3,31 +3,38 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './ProgrammingLanguagesGrid.module.css';
 
-
-
 const programmingLanguages = [
-  { name: 'HTML', href:'/pages/html/htmlintro.mdx'},
-  { name: 'CSS', href: '/html/htmlintro.mdx' },
-  { name: 'JavaScript', href: '/mdx/Java' },
-  { name: 'NodeJs', href: '/mdx/C++' },
-  { name: 'Python', href: '/mdx/Ruby' },
-  { name: 'Django', href: '/mdx/Go' },
-  { name: 'Data Analytics', href: '/mdx/Swift' },
-  { name: 'Data Science', href: '/mdx/Kotlin' },
-  { name: 'Cyber Security', href: '/mdx/Kotlin' },
-  { name: 'Flutter', href: '/mdx/Kotlin' },
-  { name: 'ML/ AI', href: '/mdx/Kotlin' },
-  { name: 'Cloud Computing', href: '/mdx/Kotlin' }
+  { name: ' HTML', href: '/html/htmlintro' },
+  { name: 'CSS', href: '/css/cssintro' },
+  { name: 'JavaScript', href: '/javascript/javascript' },
+  { name: 'React', href: '/react/reactintro' },
+  { name: 'NodeJs', href: '/Nodejs/nodejs' },
+  { name: 'Express', href: '/express/expressintro' },
+  { name: 'MongoDB', href: '/MongoDB/mongodbintro' },
+  { name: 'Python', href: '/python/home' },
+  { name: 'CyberSecurity', href: '/cybersecurity/intro' },
+  { name: 'Flutter', href: '/flutter/intro' },
+  { name: 'Data Analytics', href: '/dataanalytics/intro' },
+  { name: 'Data Science', href: '/Datascience/intro' },
+  { name: 'Digital Marketing', href: '/Digitalmarketing/intro' },
+  { name: 'Graphics Design', href: '/graphicdesign/intro' },
+  { name: 'UI/UX Design', href: '/ui/ux/intro' },
 ];
 
 const ProgrammingLanguagesGrid = () => {
   return (
+    <div className='all'>
+    
     <div className={styles.grid}>
+    
       {programmingLanguages.map((language, index) => (
-        <Link key={index} href={language.href} className={styles.box}>
-          {language.name}
+        <Link key={index} href={language.href} legacyBehavior>
+          <a className={styles.box}>
+            {language.name}
+          </a>
         </Link>
       ))}
+    </div>
     </div>
   );
 };

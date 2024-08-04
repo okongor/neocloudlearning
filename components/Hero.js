@@ -1,13 +1,13 @@
 
+import TypingEffect from "./cursor";
 const Hero = () => (
     <div style={styles.hero}>
       <div style={styles.heroContent}>
      
          <h1 style={styles.h1}>
             
-            <br/> &nbsp;&nbsp;&nbsp;&nbsp; Learn Tech, lets Build the Future &nbsp;&nbsp;&nbsp;&nbsp;
-            <br/>
-            <br/>
+           <TypingEffect/>
+            
             </h1> 
         
       </div>
@@ -25,6 +25,7 @@ const Hero = () => (
   
   
   const styles = {
+
     hero: {
       backgroundImage: 'url(/p1.jpg)',
       backgroundSize: 'cover',
@@ -36,6 +37,7 @@ const Hero = () => (
       color: 'white',
       textAlign: 'center',
       position: 'relative',
+    
     },
 
     cursor: {
@@ -45,11 +47,13 @@ const Hero = () => (
     },
 
     h1:{
-        fontSize:40,
+        fontSize:45,
         fontWeight:900,
         color:'white',
         
     },
+
+ 
 
    
 

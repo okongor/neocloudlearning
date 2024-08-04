@@ -1,14 +1,19 @@
 {
   "index": {
-    "title":"Home",
+    "title":"Welcome",
+    "type":"page",
     "theme":{
-      "layout":"full",
-      "sidebar":false,
-      "pagination":false
+     "layout":"full",
+      "sidebar":true,
+      "pagination":true
     }
   },
+    "getstarted": "Get Started",
   
-  "html": "HTML",
+  "html": {
+    "title":"HTML"
+    
+  },
   "css": "CSS",
   "javascript": "Javascript",
   "Nodejs": "NodeJs Tutorial",

@@ -1,27 +1,33 @@
-import styled from '@emotion/styled';
-import { keyframes } from '@emotion/react';
 
-const blink = keyframes`
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
-`;
+import React from "react"; 
+import Typewriter from 'typewriter-effect'; 
+  
+export default function TypingEffect() { 
+  return ( 
+    <div> 
+   
+      <Typewriter 
+        onInit={(typewriter) => { 
+          typewriter.typeString('Learn Tech, Lets Build the Future') 
+            .callFunction(() => { 
+              console.log('String typed out!'); 
+            }) 
+            .pauseFor(2000) 
+            .deleteAll() 
+            .pauseFor(2000)
+            typewriter.typeString('Embrace the journey of continuous learning & innovation.') 
+            .deleteAll() 
+            .pauseFor(2000)
+            typewriter.typeString('Console.log("Welcome")') 
+         
+            .callFunction(() => { 
+              console.log('Welcome'); 
+            }) 
+            .start(); 
+            
+        }} 
+      /> 
+    </div> 
+  ); 
+}
 
-const Cursor = styled.div`
-  position: absolute;
-  width: 8px;
-  height: 25px;
-  background-color: black;
-  animation: ${blink} 1s infinite;
-`;
-
-const cursorComponent = () => {
-  return (
-    <div>
-      
-      <Cursor />
-    </div>
-  );
-};
-
-export default cursorComponent;

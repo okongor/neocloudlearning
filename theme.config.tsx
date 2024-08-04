@@ -79,8 +79,8 @@ const config: DocsThemeConfig = {
     text: (
       <span>
         Copyright {new Date().getFullYear()} ©{' '}
-        <a href="#" target="_blank">
-          Neocloud Technologies
+        <a href="https://techneo.ng" target="_blank">
+          Neocloud Technologies Abuja NG.
         </a>
         .
       </span>
