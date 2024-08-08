@@ -8,13 +8,12 @@ const BegButton = ({ href, children }) => {
       <a
         style={{
           display: 'block',
-          color: 'white',
+          color: 'gray',
           padding: '10px',
           textAlign: 'center',
           textDecoration: 'none',
           borderRadius: '9px',
           fontSize:'20px',
-          backgroundColor:'gray',
           fontWeight:200,
           width:1000,
         }}
