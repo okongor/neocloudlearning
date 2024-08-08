@@ -117,14 +117,16 @@ const config: DocsThemeConfig = {
   primaryHue: 229,
 
   toc: {
-    float: true
+    float: true,
+    extraContent: false,
 
   },
 
   nextThemes: {
     defaultTheme: "light"
 
-  }
+  },
+
 }
 
 export default config

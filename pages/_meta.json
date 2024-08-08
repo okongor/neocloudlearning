@@ -1,15 +1,27 @@
 {
   "index": {
-    "title":"Welcome",
+    "title":"Home",
     "type":"page",
     "theme":{
-     "layout":"full",
-      "sidebar":true,
-      "pagination":true
+     "layout":"full"
+      
     }
   },
-    "getstarted": "Get Started",
   
+  
+"getstarted": {
+     "title":"Home",
+     
+     "theme":{
+      "layout":"default",
+      "sidebar":false
+       
+     }
+
+  },
+  "theinternet":{
+     "title":" The Internet"
+  },
   "html": {
     "title":"HTML"
     
