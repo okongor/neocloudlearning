@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
       titleTemplate: '%s – neocloud learning'
     }
   },
-  darkMode: false,
+  darkMode: true,
 
   logo: <span>
     <svg
@@ -18,7 +18,7 @@ const config: DocsThemeConfig = {
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width={200}
-      height={170}
+      height={120}
       viewBox="0, 0, 400,238.00178412132027"
 
     >
@@ -125,7 +125,7 @@ const config: DocsThemeConfig = {
   },
 
   nextThemes: {
-    defaultTheme: "light"
+
 
   },
   head: () => {
@@ -141,7 +141,7 @@ const config: DocsThemeConfig = {
         <meta property="og:title" content={frontMatter.title || 'Nextra'} />
         <meta
           property="og:description"
-          content={frontMatter.description || 'The next site builder'}
+          content={frontMatter.description || 'Learn tech'}
         />
         <meta name="google-adsense-account" content="ca-pub-7094656317998541"></meta>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7094656317998541"></script>

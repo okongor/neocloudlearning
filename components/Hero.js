@@ -31,6 +31,7 @@ const Hero = () => (
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       height: '450px',
+      borderRadius:'25px',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',

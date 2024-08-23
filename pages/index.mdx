@@ -1,11 +1,9 @@
 import Hero from '../components/Hero';
 import cursorComponent from "../components/cursor";
 import ProgrammingLanguagesGrid from '../components/ProgrammingLanguagesGrid';
-import CareerPath from '../components/CareerPath';
-import Roadmap from '../components/cybersecroadmap';
-import BegButton from '../components/begbutton'
 
-
+import BegButton from '../components/begbutton';
+import Navbar from '../components/langnavbar'
 
 
 export const Wrapper = ({ children }) => {
@@ -24,7 +22,7 @@ export const Wrapper = ({ children }) => {
 
   
 
-
+<Navbar/>
 
 <Hero />
 
@@ -36,7 +34,7 @@ export const Wrapper = ({ children }) => {
 
 <br/>
 <br/>
-<center><BegButton href="/getstarted" >Are you just starting out in tech? click here</BegButton></center>
+<center><BegButton href="/getstarted" >👉🏿Are you just starting out in tech? click here👈🏿</BegButton></center>
 <br/>
  
     
@@ -44,19 +42,12 @@ export const Wrapper = ({ children }) => {
 Our expert-crafted tutorials cover a wide range of topics, from programming languages to Cyber Security.  Whether you're a beginner or an experienced developer, we've got you covered.
 
 <br/>
+
+
 <ProgrammingLanguagesGrid />
+
 <br/>
 <br/>
-<br/>
-<div style={{fontSize:45, textAlign:'center', fontWeight:700,}}>&mdash; ROADMAPS &mdash;</div>
 <br/>
 
-## Web Development Roadmap
-<br/>
-<CareerPath />
-<br/>
-<br/>
-## CyberSecurity Roadmap
-<br/>
-<Roadmap/>
 </Wrapper>

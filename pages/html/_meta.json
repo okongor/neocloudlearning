@@ -1,6 +1,8 @@
 {
     "htmlintro":"HTML Intro",
     "settingup":"Setting up",
-     "boilerplate": "HTML Boilerplate "
+     "boilerplate": "HTML Boilerplate ",
+     "viewinghtml" : "Viewing HTML files in the browser"
+     
     
 }

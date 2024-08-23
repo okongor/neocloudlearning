@@ -1,0 +1,46 @@
+.navbarContainer {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    background-color: transparent;
+    color: var(--text-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  
+  
+  .navbar {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    width: calc(100% - 80px);
+
+  }
+  .navbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  
+  .navItem {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .navItem:hover{
+    background-color: rgba(235, 235, 235, 0.301);
+    border-radius: 20px;
+  }
+  
+  .arrow {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  

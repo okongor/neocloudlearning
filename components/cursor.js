@@ -16,6 +16,7 @@ export default function TypingEffect() {
             .deleteAll() 
             .pauseFor(2000)
             typewriter.typeString('Embrace the journey of continuous learning & innovation.') 
+            .pauseFor(1000)
             .deleteAll() 
             .pauseFor(2000)
             typewriter.typeString('Console.log("Welcome")') 

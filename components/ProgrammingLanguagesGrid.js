@@ -12,7 +12,7 @@ const programmingLanguages = [
   { name: 'Express', href: '/express/expressintro' },
   { name: 'MongoDB', href: '/MongoDB/mongodbintro' },
   { name: 'Python', href: '/python/home' },
-  { name: 'CyberSecurity', href: '/cybersecurity/intro' },
+  { name: 'Cybersecurity', href: '/cybersecurity/intro' },
   { name: 'Flutter', href: '/flutter/intro' },
   { name: 'Data Analytics', href: '/dataanalytics/intro' },
   { name: 'Data Science', href: '/Datascience/intro' },

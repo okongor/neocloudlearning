@@ -7,8 +7,10 @@
       
     }
   },
-  
-  
+ 
+  "---": {
+    "type": "separator"
+  },
 "getstarted": {
      "title":"Home",
      
@@ -17,6 +19,8 @@
       "sidebar":false
        
      }
+
+
 
   },
   "theinternet":{
@@ -35,14 +39,25 @@
   "dataanalytics":"Data Analytics",
   "Datascience":"Data",
   
-
-
+  
   "contact": {
     "title": "Get Certified",
     "type": "page",
     "href": "https://techneo.ng/computer-training-school-in-abuja/",
     "newWindow": true
     
-  }
+  },
+
+
+   
+  "community":{
+    "title":"Community",
+    "type":"page"
+ },
+ "roadmaps":{
+    "title":"Roadmaps",
+    "type":"page"
+ }
+
   
 }
