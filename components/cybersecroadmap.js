@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './CareerPath.module.css';
+import styles from './careerpath/CareerPath.module.css';
 import MdxButton from './roadmapbuutton';
 
   const steps = [

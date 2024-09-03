@@ -1,10 +1,10 @@
-import Hero from '../components/Hero';
-import cursorComponent from "../components/cursor";
+
 import ProgrammingLanguagesGrid from '../components/ProgrammingLanguagesGrid';
-
-import BegButton from '../components/begbutton';
-import Navbar from '../components/langnavbar'
-
+import SlideUpText from '../components/slideuptext';
+import BegButton from '../components/begbutton/begbutton';
+import Navbar from '../components/Lang-navbar/langnavbar';
+import {AuroraBackgroundDemo} from '../components/sparklepage'
+import {CardHoverEffectDemo} from '../components/cards'
 
 export const Wrapper = ({ children }) => {
   return (
@@ -24,12 +24,14 @@ export const Wrapper = ({ children }) => {
 
 <Navbar/>
 
-<Hero />
+
+
+
+
 
 
 <Wrapper>
-
-
+<AuroraBackgroundDemo />
 
 
 <br/>
@@ -37,13 +39,13 @@ export const Wrapper = ({ children }) => {
 <center><BegButton href="/getstarted" >👉🏿 Just starting out in tech? click here👈🏿</BegButton></center>
 <br/>
  
-    
+    <SlideUpText>
 # Master in-demand skills. 
-Our expert-crafted tutorials cover a wide range of topics, from programming languages to Cyber Security.  Whether you're a beginner or an experienced developer, we've got you covered.
-
+Our expert-crafted tutorials cover a wide range of topics, from Web Development to Cyber Security.  Whether you're a beginner or an experienced developer, we've got you covered.
+</SlideUpText>
 <br/>
 
-
+<CardHoverEffectDemo />
 <ProgrammingLanguagesGrid />
 
 <br/>

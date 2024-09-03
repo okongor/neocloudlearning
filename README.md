@@ -1,3 +1,3 @@
 # Neocloud Technologies
 
-This is a the neocloud technologies tutorial site
+This is a neocloud technologies tutorial site

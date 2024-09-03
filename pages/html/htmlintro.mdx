@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
-
+import MonacoEditorWithResult from '../../components/codeeditors/code-editor';
 
 
 # Introduction to HTML
@@ -21,7 +21,7 @@ HTML, or HyperText Markup Language, was born out of the need to share informatio
 
 The first version of HTML was released in 1993. It was incredibly basic, with only a handful of tags to structure text.
 
-      {/* <MonacoEditorExample/>  */}
+
 
 ## Evolution of HTML
 
@@ -45,3 +45,8 @@ HTML5: The current standard, offering a vast array of new features like multimed
     <h1>Hello world</h1>
 
 ```
+
+
+ <MonacoEditorWithResult language="javascript" initialCode="" />
+
+ 

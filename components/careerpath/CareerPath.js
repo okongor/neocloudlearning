@@ -1,12 +1,11 @@
 // components/CareerPath.js
 import React from 'react';
-import styles from './CareerPath.module.css';
-import MdxButton from './roadmapbuutton';
-
+import MdxButton from '../roadmapbuutton';
+import styles from '../careerpath/CareerPath.module.css'
 const steps = [
   { title: 'Learn HTML & CSS', description: 'Start with the basics of web development.' },
   { title: 'Learn JavaScript', description: 'Understand the fundamentals of JavaScript.' },
-  { title: 'Learn a Framework', description: 'Choose a framework like Reac.' },
+  { title: 'Learn a Framework', description: 'Choose a framework like React.' },
   { title: 'Build Projects', description: 'Create projects to apply your knowledge.' },
   { title: 'Learn Backend', description: 'Understand backend technologies like Node.js and express.' },
   { title: 'Deploy Applications', description: 'Learn how to deploy your applications.' },
