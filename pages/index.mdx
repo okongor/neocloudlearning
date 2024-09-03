@@ -1,10 +1,10 @@
-
-import ProgrammingLanguagesGrid from '../components/ProgrammingLanguagesGrid';
 import SlideUpText from '../components/slideuptext';
 import BegButton from '../components/begbutton/begbutton';
 import Navbar from '../components/Lang-navbar/langnavbar';
 import {AuroraBackgroundDemo} from '../components/sparklepage'
-import {CardHoverEffectDemo} from '../components/cards'
+import {CardHoverEffectDemo} from '../components/cards';
+import {FeaturesSectionDemo} from '../components/featuresection';
+import {AnimatedTooltipPreview} from '../components/tooltip';
 
 export const Wrapper = ({ children }) => {
   return (
@@ -17,6 +17,15 @@ export const Wrapper = ({ children }) => {
 };
 
 
+export const Rightalign = ({ children }) => {
+  return (
+    
+    <div style={ {textAlign:'right'}}>
+      { children }
+    </div>
+   
+  )
+};
 
 
 
@@ -46,10 +55,15 @@ Our expert-crafted tutorials cover a wide range of topics, from Web Development 
 <br/>
 
 <CardHoverEffectDemo />
-<ProgrammingLanguagesGrid />
+<FeaturesSectionDemo />
 
 <br/>
 <br/>
 <br/>
 
 </Wrapper>
+<Rightalign>
+# Contributors
+</Rightalign>
+<br/>
+<AnimatedTooltipPreview />

@@ -2452,6 +2452,18 @@
   dependencies:
     "@swc/counter" "^0.1.3"
 
+"@tabler/icons-react@^3.14.0":
+  version "3.14.0"
+  resolved "https://registry.npmjs.org/@tabler/icons-react/-/icons-react-3.14.0.tgz"
+  integrity sha512-3XdbuyhBNq8aZW0qagR9YL8diACZYSAtaw6VuwcO2l6HzVFPN6N5TDex9WTz/3lf+uktAvOv1kNuuFBjSjN9yw==
+  dependencies:
+    "@tabler/icons" "3.14.0"
+
+"@tabler/icons@3.14.0":
+  version "3.14.0"
+  resolved "https://registry.npmjs.org/@tabler/icons/-/icons-3.14.0.tgz"
+  integrity sha512-OakKjK1kuDWKoNwdnHHVMt11kTZAC10iZpN/8o/CSYdeBH7S3v5n8IyqAYynFxLI8yBGTyBvljtvWdmWh57zSg==
+
 "@tanstack/react-virtual@^3.0.0-beta.60":
   version "3.8.4"
   resolved "https://registry.npmjs.org/@tanstack/react-virtual/-/react-virtual-3.8.4.tgz"
@@ -3331,6 +3343,13 @@ clsx@2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/clsx/-/clsx-2.0.0.tgz"
   integrity sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==
+
+cobe@^0.6.3:
+  version "0.6.3"
+  resolved "https://registry.npmjs.org/cobe/-/cobe-0.6.3.tgz"
+  integrity sha512-WHr7X4o1ym94GZ96h7b1pNemZJacbOzd02dZtnVwuC4oWBaLg96PBmp2rIS1SAhUDhhC/QyS9WEqkpZIs/ZBTg==
+  dependencies:
+    phenomenon "^1.6.0"
 
 collapse-white-space@^2.0.0:
   version "2.1.0"
@@ -6163,6 +6182,11 @@ periscopic@^3.0.0:
     estree-walker "^3.0.0"
     is-reference "^3.0.0"
 
+phenomenon@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.npmjs.org/phenomenon/-/phenomenon-1.6.0.tgz"
+  integrity sha512-7h9/fjPD3qNlgggzm88cY58l9sudZ6Ey+UmZsizfhtawO6E3srZQXywaNm2lBwT72TbpHYRPy7ytIHeBUD/G0A==
+
 picocolors@^1.0.0, picocolors@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.1.tgz"
@@ -6371,7 +6395,7 @@ react-typing-animator@^5.6.2:
   resolved "https://registry.npmjs.org/react-typing-animator/-/react-typing-animator-5.6.2.tgz"
   integrity sha512-z2VkdKL8g0uAXOgx6mpLKwBbf+sKHS0qbwEjMHRQclUFKgS1gxEnpLZ2B6gTa5loG6SwaQahrpIin7sgJEo48w==
 
-react@*, "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@^16 || ^17 || ^18", "react@^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0", "react@^17.x || ^18.x", react@^18.0.0, react@^18.2.0, react@^18.3.1, "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16, react@>=16.0.0, react@>=16.13.1, react@>=16.14.0, react@>=16.8.0, "react@>=16.x <=18.x", react@>=18:
+react@*, "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", "react@^16 || ^17 || ^18", "react@^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0", "react@^17.x || ^18.x", react@^18.0.0, react@^18.2.0, react@^18.3.1, "react@>= 16", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16, react@>=16.0.0, react@>=16.13.1, react@>=16.14.0, react@>=16.8.0, "react@>=16.x <=18.x", react@>=18:
   version "18.3.1"
   resolved "https://registry.npmjs.org/react/-/react-18.3.1.tgz"
   integrity sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==

@@ -132,7 +132,7 @@ const config: DocsThemeConfig = {
   },
 
   nextThemes: {
-
+    defaultTheme: 'dark',
 
   },
   head: () => {

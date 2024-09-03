@@ -17,6 +17,7 @@ module.exports = {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         aurora: "aurora 60s linear infinite",
+        move: "move 5s linear infinite",
       },
       keyframes: {
         spotlight: {
@@ -37,6 +38,11 @@ module.exports = {
           to: {
             backgroundPosition: "350% 50%, 350% 50%",
           },
+        },
+
+        move: {
+          "0%": { transform: "translateX(-200px)" },
+          "100%": { transform: "translateX(200px)" },
         },
       },
   },
