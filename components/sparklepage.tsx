@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "../components/sparkles";
-
+import { MovingBorderDemo } from "../components/movingborderpage";
 export function AuroraBackgroundDemo() {
   return (
     <AuroraBackground>
@@ -23,9 +23,7 @@ export function AuroraBackgroundDemo() {
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
           Learn to code 100% free.
         </div>
-        <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
-          Are you a beginner? click here
-        </button>
+        <MovingBorderDemo />
       </motion.div>
     </AuroraBackground>
   );
