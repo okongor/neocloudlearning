@@ -13,7 +13,7 @@ export function FeaturesSectionDemo() {
         {
             title: "Built-in code editor",
             description:
-                "Write and run code in our text editor to spped up your learning process.",
+                "Write and run code in our text editor to speed up your learning process.",
             skeleton: <SkeletonOne />,
             className:
                 "col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800",
@@ -21,7 +21,7 @@ export function FeaturesSectionDemo() {
         {
             title: "Copy code snippets",
             description:
-                "quickly copy different code snippets to try out in your locaal machine.",
+                "quickly copy different code snippets to try out in your local machine.",
             skeleton: <SkeletonTwo />,
             className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
         },
@@ -107,16 +107,18 @@ const FeatureDescription = ({ children }: { children?: React.ReactNode }) => {
 
 export const SkeletonOne = () => {
     return (
-        <div className="relative flex py-8 px-2 gap-10 h-full">
+        <div className="relative flex py-8 px-2 gap-10 h-95">
             <div className="w-full  p-5  mx-auto bg-white dark:bg-neutral-900 shadow-2xl group h-full">
                 <div className="flex flex-1 w-full h-full flex-col space-y-2  ">
+                    <br />
+                    <br />
                     {/* TODO */}
                     <Image
                         src="/vsed.png"
                         alt="header"
-                        width={800}
-                        height={800}
-                        className="h-full w-full aspect-square object-cover object-left-top rounded-sm"
+                        width={300}
+                        height={300}
+                        className="h-full w-full aspect-square object-contain object-left-top rounded-sm "
                     />
                 </div>
             </div>
@@ -139,10 +141,10 @@ export const SkeletonThree = () => {
                     {/* TODO */}
                     <IconBrandYoutubeFilled className="h-20 w-20 absolute z-10 inset-0 text-red-500 m-auto " />
                     <Image
-                        src="/neo.png"
+                        src="/neo.jpeg"
                         alt="header"
-                        width={400}
-                        height={400}
+                        width={900}
+                        height={900}
                         className="h-full w-full aspect-square object-cover object-center rounded-sm blur-md group-hover/image:blur-none transition-all duration-200"
                     />
                 </div>
@@ -153,6 +155,24 @@ export const SkeletonThree = () => {
 
 export const SkeletonTwo = () => {
     const images = [
+        "/snippet.png",
+        "/editor.png",
+        "/snippet.png",
+        "/editor.png",
+        "/snippet.png",
+        "/editor.png",
+        "/snippet.png",
+        "/editor.png",
+        "/snippet.png",
+        "/editor.png",
+        "/snippet.png",
+        "/editor.png",
+        "/snippet.png",
+        "/editor.png",
+        "/snippet.png",
+        "/editor.png",
+        "/snippet.png",
+        "/editor.png",
         "/snippet.png",
         "/editor.png",
 
@@ -182,6 +202,8 @@ export const SkeletonTwo = () => {
                         style={{
                             rotate: Math.random() * 20 - 10,
                         }}
+
+
                         whileHover="whileHover"
                         whileTap="whileTap"
                         className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden"

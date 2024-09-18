@@ -33,7 +33,7 @@ const people = [
     {
         id: 5,
         name: "Yvonne Aderogba",
-        designation: "Ui designerr",
+        designation: "Graphics designerr",
         image:
             "/p1.png",
     },

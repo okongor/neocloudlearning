@@ -5,7 +5,7 @@ import {AuroraBackgroundDemo} from '../components/sparklepage'
 import {CardHoverEffectDemo} from '../components/cards';
 import {FeaturesSectionDemo} from '../components/featuresection';
 import {AnimatedTooltipPreview} from '../components/tooltip';
-
+import {MovingCards} from '../components/testimony'
 export const Wrapper = ({ children }) => {
   return (
     
@@ -28,6 +28,15 @@ export const Rightalign = ({ children }) => {
 };
 
 
+export const Margin = ({ children }) => {
+  return (
+    
+    <div style={ {marginLeft:'9px'}}>
+      { children }
+    </div>
+   
+  )
+};
 
   
 
@@ -41,26 +50,30 @@ export const Rightalign = ({ children }) => {
 
 <Wrapper>
 
-
-
 <br/>
 <br/>
 <br/>
+<br/>
+    <Margin >
  
     <SlideUpText>
-# Master in-demand skills. 
-Our expert-crafted tutorials cover a wide range of topics, from Web Development to Cyber Security.  Whether you're a beginner or an experienced developer, we've got you covered.
+
+# Master In-Demand Tech Skills
+Explore our comprehensive tutorials, expertly designed to cover a broad range of technologies,
+ including HTML, CSS, JavaScript, React, and Python. Whether you’re a novice or a seasoned developer, 
+ we have everything you need to enhance your skills and succeed.
 </SlideUpText>
+</Margin>
+<br/>
 <br/>
 
 <CardHoverEffectDemo />
 <FeaturesSectionDemo />
 
-<br/>
-<br/>
-<br/>
+
 
 </Wrapper>
+<MovingCards />
 <Rightalign>
 # Contributors
 </Rightalign>

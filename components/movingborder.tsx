@@ -111,6 +111,7 @@ export const MovingBorder = ({
                 preserveAspectRatio="none"
                 className="absolute h-full w-full"
                 width="100%"
+
                 height="100%"
                 {...otherProps}
             >
@@ -130,6 +131,7 @@ export const MovingBorder = ({
                     left: 0,
                     display: "inline-block",
                     transform,
+
                 }}
             >
                 {children}

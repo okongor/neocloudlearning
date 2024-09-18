@@ -8,14 +8,13 @@
     }
   },
  
-  "---": {
-    "type": "separator"
-  },
+ 
 "getstarted": {
-     "title":"Home",
+     "title":"",
+    "display": "hidden",
      
      "theme":{
-      "layout":"default",
+      "layout":"full",
       "sidebar":false
        
      }
@@ -26,20 +25,59 @@
   "theinternet":{
      "title":" The Internet"
   },
+  "a": {
+    "type": "separator"
+  },
   "html": {
     "title":"HTML"
     
   },
+  "b": {
+    "type": "separator"
+  },
   "css": "CSS",
+  "c": {
+    "type": "separator"
+  },
   "javascript": "Javascript",
+  "d": {
+    "type": "separator"
+  },
   "Nodejs": "NodeJs Tutorial",
+  "e": {
+    "type": "separator"
+  },
   "python": "Python ",
+  "f": {
+    "type": "separator"
+  },
   "cybersecurity": "CyberSecurity",
+  "g": {
+    "type": "separator"
+  },
   "flutter": "Flutter",
+  "h": {
+    "type": "separator"
+  },
   "dataanalytics":"Data Analytics",
-  "Datascience":"Data",
-  
-  
+  "i": {
+    "type": "separator"
+  },
+  "Datascience":"Pandas",
+  "j": {
+    "type": "separator"
+  },
+  "Digitalmarketing":"Mail Chimp",
+  "k": {
+    "type": "separator"
+  },
+
+  "MongoDB":"MongoDB",
+  "l": {
+    "type": "separator"
+  },
+  "react": "React",
+
   "contact": {
     "title": "Get Certified",
     "type": "page",

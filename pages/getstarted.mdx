@@ -1,9 +1,23 @@
+
+
 import Link from 'next/link';
 import SpotlightPreview from '../components/spotlight';
 
+export const Wrapper = ({ children }) => {
+  return (
+    
+    <div style={ {maxWidth: '70rem', margin: '0 auto', padding: '0 1rem',}}>
+      { children }
+    </div>
+   
+  )
+};
 
 
+<Wrapper>
 <SpotlightPreview />
+
+
 
 
 # Getting Started in Tech: A Beginner’s Guide
@@ -66,3 +80,5 @@ Take a professional course: Check out our professional courses at <Link href="ht
 
 ##
 **Remember, tech is about continuous learning. Embrace challenges, stay curious, and enjoy the journey! 🚀**
+
+</Wrapper>

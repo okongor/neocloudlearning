@@ -88,7 +88,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: (
       <span>
-        Copyright {new Date().getFullYear()} ©{' '}
+        Copyright © {new Date().getFullYear()} {' '}
         <a href="https://techneo.ng" target="_blank">
           Neocloud Technologies Abuja NG.
         </a>
